@@ -5,8 +5,8 @@ WORKDIR /mysampleangularapp
 COPY . .
 RUN npm install -g http-server
 
-EXPOSE 3580
-CMD ["http-server", "--port", "3580"]
+EXPOSE 9999
+CMD ["http-server", "--port", "9999"]
 
 
 
